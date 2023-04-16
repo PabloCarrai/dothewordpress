@@ -1,0 +1,12 @@
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.env
+.gitconfig
+.lesshst
+.profile
+.ssh/
+.sudo_as_admin_successful
+.viminfo
+
