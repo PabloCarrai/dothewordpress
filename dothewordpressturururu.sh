@@ -17,7 +17,7 @@ OK="
 
 
 
-DIR="$HOME"
+DIR="$PWD"
 BA=$(which bash)
 FI=$(which find)
 ARCHIVO=$($FI "$DIR" -type f -name info)
