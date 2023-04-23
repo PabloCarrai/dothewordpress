@@ -56,6 +56,7 @@ done < "$ARCHIVO"
 
 "$BA" "$DIR"/sustituir-clave-root-db.sh
 "$BA" "$DIR"/sustituir-clave-wp.sh
+"$BA" "$DIR"/sustituir-clave-nombre-db.sh
 
 mv "$DIR"/"$1"/.env-Example "$DIR"/"$1"/.env
 echo "$OK"
