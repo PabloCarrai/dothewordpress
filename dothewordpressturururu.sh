@@ -14,7 +14,7 @@ OK="
 ⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏⠀⠀⠀⣄⢸⠀⠀⠀⠀⠀⠀
 ⣿⣿⣧⣀⣿………⣀⣰⣏⣘⣆⣀⠀⠀
 "
-
+EXECZIP=unzip
 DIR="$PWD"
 BA=$(which bash)
 FI=$(which find)
@@ -30,6 +30,14 @@ help()
    echo "     ./dothewordpressturururu.sh sitio.org"
 
 }
+
+existe(){
+which $EXECZIP >/dev/null 2>&1 &&
+    return 0 || 
+    echo "'$EXECZIP': No encontrado!, instalado antes de seguir "
+}
+
+existe
 
 while getopts ":h" option; do
    case $option in
