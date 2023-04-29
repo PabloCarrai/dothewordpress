@@ -1,9 +1,5 @@
 #!/usr/bin/bash
 
-DIRECTORY=$(find . -type d)
-
-for dir in $DIRECTORY; do DBNAME=$(basename "$dir"); done
-
 ORIG="MYSQL_DATABASE=wordpress"
 REST="MYSQL_DATABASE=$1"
 ORIG1="WORDPRESS_DB_NAME=wordpress"
