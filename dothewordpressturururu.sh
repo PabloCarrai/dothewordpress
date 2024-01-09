@@ -51,4 +51,5 @@ mv "$DIR"/wp-dockerizado "$DIR"/"$1"
 
 mv "$DIR"/"$1"/.env-Example "$DIR"/"$1"/.env
 mv "$DIR"/"$1"/ "$HOME"/"$1"/
+find "$HOME" -type d -name dothewordpress -exec rm -rf  "{}" \;
 echo "$OK"
