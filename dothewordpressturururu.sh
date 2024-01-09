@@ -17,7 +17,6 @@ OK="
 DIR="$PWD"
 BA=$(which bash)
 FI=$(which find)
-PLUG="$DIR"/"$1"
 
 help()
 {
