@@ -50,4 +50,5 @@ mv "$DIR"/wp-dockerizado "$DIR"/"$1"
 "$BA" "$DIR"/sustituir-clave-nombre-db.sh $1
 
 mv "$DIR"/"$1"/.env-Example "$DIR"/"$1"/.env
+mv "$DIR"/"$1"/ "$HOME"/"$1"/
 echo "$OK"
