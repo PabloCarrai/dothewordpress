@@ -47,6 +47,8 @@ mv "$DIR"/wp-dockerizado "$DIR"/"$1"
 "$BA" "$DIR"/sustituir-clave-root-db.sh
 "$BA" "$DIR"/sustituir-clave-wp.sh
 "$BA" "$DIR"/sustituir-clave-nombre-db.sh $1
+"$BA" "$DIR"/obtenerClaveSudo.sh
+
 
 mv "$DIR"/"$1"/.env-Example "$DIR"/"$1"/.env
 mv "$DIR"/"$1"/ "$HOME"/"$1"/
